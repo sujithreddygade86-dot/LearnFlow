@@ -40,7 +40,7 @@ function logout() {
 
 async function loadCourses() {
 
-    let res = await fetch("http://localhost:3000/courses");
+    let res = await fetch("https://learnflow-backend-dg4d.onrender.com/courses");
 
     let data = await res.json();
 
@@ -100,7 +100,7 @@ async function saveAssignment() {
 
     course.assignments.push(obj);
 
-    await fetch(`http://localhost:3000/courses/${courseId}`, {
+    await fetch(`https://learnflow-backend-dg4d.onrender.com/courses/${courseId}`, {
 
         method: "PUT",
 
@@ -128,7 +128,7 @@ async function saveAssignment() {
 
 async function getAssignments() {
 
-    let res = await fetch("http://localhost:3000/courses");
+    let res = await fetch("https://learnflow-backend-dg4d.onrender.com/courses");
 
     let courses = await res.json();
 
@@ -185,7 +185,7 @@ async function getAssignments() {
 
 async function deleteAssignment(id) {
 
-    await fetch(`http://localhost:3000/assignments/${id}`, {
+    await fetch(`https://learnflow-backend-dg4d.onrender.com/assignments/${id}`, {
 
         method: "DELETE"
 

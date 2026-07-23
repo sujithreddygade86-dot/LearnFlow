@@ -32,7 +32,7 @@ function logout() {
 
     localStorage.removeItem("loggedInAdmin");
 
-    window.location.href = "../frontend/login.html";
+    window.location.href = "../login.html";
 
 }
 

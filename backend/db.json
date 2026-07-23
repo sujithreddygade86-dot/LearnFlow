@@ -1,0 +1,469 @@
+{
+  "users": [
+    {
+      "name": "sujith reddy",
+      "email": "sujithreddygade86@gmail.com",
+      "password": "Sujith@12345",
+      "enrolledCourses": [],
+      "submittedAssignments": [],
+      "id": "UPi4bFSaUJA"
+    },
+    {
+      "name": "sujith",
+      "email": "sujith76897@gmail.com",
+      "password": "Sujith@12345",
+      "enrolledCourses": [
+        {
+          "id": "1",
+          "title": "Java Full Stack Development",
+          "category": "Web Development",
+          "level": "Beginner",
+          "duration": "45 Hours",
+          "lessons": "129",
+          "students": "12.4K",
+          "rating": "4.9",
+          "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500",
+          "description": "Learn Java, Spring Boot, MySQL, React, and build real-world full stack applications.",
+          "videos": [
+            {
+              "id": 3,
+              "title": "Headings",
+              "video": "class.mp4"
+            }
+          ],
+          "assignments": [
+            {
+              "id": 1,
+              "title": "java",
+              "description": "java assignment",
+              "dueDate": "2026-07-23",
+              "link": "https://docs.google.com/document/d/1Dy8o2ArERp14Buxxj9sELEsOIEiLBccje1g59oD9XCA/edit?usp=sharing"
+            },
+            {
+              "id": 2,
+              "title": "java",
+              "description": "assign",
+              "dueDate": "2026-07-24",
+              "link": "https://docs.google.com/document/d/1Dy8o2ArERp14Buxxj9sELEsOIEiLBccje1g59oD9XCA/edit?usp=sharing"
+            },
+            {
+              "id": 3,
+              "title": "develeopment",
+              "description": " do it",
+              "dueDate": "2026-07-25",
+              "link": "https://docs.google.com/document/d/1Dy8o2ArERp14Buxxj9sELEsOIEiLBccje1g59oD9XCA/edit?usp=sharing"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "React JS Complete Guide",
+          "category": "Web Development",
+          "level": "Intermediate",
+          "duration": "35 Hours",
+          "lessons": 95,
+          "students": "10.2K",
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=500",
+          "description": "Master React.js, Hooks, Routing, API integration, and state management.",
+          "videos": [
+            {
+              "id": 1,
+              "title": "Introduction",
+              "video": "frontend/class.mp4"
+            },
+            {
+              "id": 2,
+              "title": "HTML Basics",
+              "video": "frontend/class.mp4"
+            },
+            {
+              "id": 3,
+              "title": "Headings",
+              "video": "frontend/class.mp4"
+            },
+            {
+              "id": 4,
+              "title": "Paragraphs",
+              "video": "frontend/class.mp4"
+            }
+          ],
+          "assignments": []
+        }
+      ],
+      "submittedAssignments": [],
+      "id": "xHVz6sMCF7E"
+    },
+    {
+      "name": "sujithdfffffccdddd",
+      "email": "sujith76sssdd897dd@gmail.com",
+      "password": "Sujith@12345",
+      "enrolledCourses": [],
+      "submittedAssignments": [],
+      "id": "LwXL3OqXaVk"
+    },
+    {
+      "name": "sujithdfffffccdddddd",
+      "email": "sujith76sssdd897dddd@gmail.com",
+      "password": "Sujith",
+      "enrolledCourses": [],
+      "submittedAssignments": [],
+      "id": "tudAtGmRt60"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "title": "Java Full Stack Development",
+      "category": "Web Development",
+      "level": "Beginner",
+      "duration": "45 Hours",
+      "lessons": "129",
+      "students": "12.4K",
+      "rating": "4.9",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500",
+      "description": "Learn Java, Spring Boot, MySQL, React, and build real-world full stack applications.",
+      "videos": [
+        {
+          "id": 3,
+          "title": "Headings",
+          "video": "frontend/class.mp4"
+        }
+      ],
+      "assignments": [
+        {
+          "id": 1,
+          "title": "java",
+          "description": "java assignment",
+          "dueDate": "2026-07-23",
+          "link": "https://docs.google.com/document/d/1Dy8o2ArERp14Buxxj9sELEsOIEiLBccje1g59oD9XCA/edit?usp=sharing"
+        },
+        {
+          "id": 2,
+          "title": "java",
+          "description": "assign",
+          "dueDate": "2026-07-24",
+          "link": "https://docs.google.com/document/d/1Dy8o2ArERp14Buxxj9sELEsOIEiLBccje1g59oD9XCA/edit?usp=sharing"
+        },
+        {
+          "id": 3,
+          "title": "develeopment",
+          "description": " do it",
+          "dueDate": "2026-07-25",
+          "link": "https://docs.google.com/document/d/1Dy8o2ArERp14Buxxj9sELEsOIEiLBccje1g59oD9XCA/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "React JS Complete Guide",
+      "category": "Web Development",
+      "level": "Intermediate",
+      "duration": "35 Hours",
+      "lessons": 95,
+      "students": "10.2K",
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=500",
+      "description": "Master React.js, Hooks, Routing, API integration, and state management.",
+      "videos": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 2,
+          "title": "HTML Basics",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 3,
+          "title": "Headings",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 4,
+          "title": "Paragraphs",
+          "video": "frontend/class.mp4"
+        }
+      ],
+      "assignments": []
+    },
+    {
+      "id": "3",
+      "title": "Python Programming Masterclass",
+      "category": "Programming",
+      "level": "Beginner",
+      "duration": "40 Hours",
+      "lessons": 110,
+      "students": "15.8K",
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=500",
+      "description": "Learn Python from basics to advanced concepts with hands-on projects.",
+      "videos": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 2,
+          "title": "HTML Basics",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 3,
+          "title": "Headings",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 4,
+          "title": "Paragraphs",
+          "video": "frontend/class.mp4"
+        }
+      ],
+      "assignments": []
+    },
+    {
+      "id": "4",
+      "title": "JavaScript from Scratch",
+      "category": "Programming",
+      "level": "Beginner",
+      "duration": "32 Hours",
+      "lessons": 85,
+      "students": "13.1K",
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500",
+      "description": "Understand JavaScript fundamentals, DOM, ES6, APIs, and asynchronous programming.",
+      "videos": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 2,
+          "title": "HTML Basics",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 3,
+          "title": "Headings",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 4,
+          "title": "Paragraphs",
+          "video": "frontend/class.mp4"
+        }
+      ],
+      "assignments": []
+    },
+    {
+      "id": "5",
+      "title": "HTML & CSS Bootcamp",
+      "category": "Web Development",
+      "level": "Beginner",
+      "duration": "25 Hours",
+      "lessons": 70,
+      "students": "11.5K",
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500",
+      "description": "Build responsive websites using modern HTML5 and CSS3 techniques.",
+      "videos": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 2,
+          "title": "HTML Basics",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 3,
+          "title": "Headings",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 4,
+          "title": "Paragraphs",
+          "video": "frontend/class.mp4"
+        }
+      ],
+      "assignments": []
+    },
+    {
+      "id": "6",
+      "title": "Data Structures & Algorithms",
+      "category": "Programming",
+      "level": "Intermediate",
+      "duration": "55 Hours",
+      "lessons": 140,
+      "students": "9.8K",
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500",
+      "description": "Master arrays, linked lists, trees, graphs, sorting, searching, and problem solving.",
+      "videos": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 2,
+          "title": "HTML Basics",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 3,
+          "title": "Headings",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 4,
+          "title": "Paragraphs",
+          "video": "frontend/class.mp4"
+        }
+      ],
+      "assignments": []
+    },
+    {
+      "id": "7",
+      "title": "SQL & Database Essentials",
+      "category": "Database",
+      "level": "Beginner",
+      "duration": "28 Hours",
+      "lessons": 75,
+      "students": "8.6K",
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=500",
+      "description": "Learn SQL queries, joins, functions, normalization, and database design.",
+      "videos": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 2,
+          "title": "HTML Basics",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 3,
+          "title": "Headings",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 4,
+          "title": "Paragraphs",
+          "video": "frontend/class.mp4"
+        }
+      ],
+      "assignments": []
+    },
+    {
+      "id": "8",
+      "title": "Artificial Intelligence Fundamentals",
+      "category": "Artificial Intelligence",
+      "level": "Intermediate",
+      "duration": "50 Hours",
+      "lessons": 130,
+      "students": "7.4K",
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500",
+      "description": "Explore AI concepts, machine learning basics, neural networks, and practical applications.",
+      "videos": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 2,
+          "title": "HTML Basics",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 3,
+          "title": "Headings",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 4,
+          "title": "Paragraphs",
+          "video": "frontend/class.mp4"
+        }
+      ],
+      "assignments": []
+    },
+    {
+      "id": "9",
+      "title": "Cloud Computing with AWS",
+      "category": "Cloud Computing",
+      "level": "Intermediate",
+      "duration": "38 Hours",
+      "lessons": 100,
+      "students": "6.9K",
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500",
+      "description": "Learn AWS cloud services including EC2, S3, IAM, and cloud deployment.",
+      "videos": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 2,
+          "title": "HTML Basics",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 3,
+          "title": "Headings",
+          "video": "frontend/class.mp4"
+        },
+        {
+          "id": 4,
+          "title": "Paragraphs",
+          "video": "frontend/class.mp4"
+        }
+      ],
+      "assignments": []
+    },
+    {
+      "id": "DfYpkOyM5QY",
+      "title": "web",
+      "category": "web",
+      "level": "Advanced",
+      "duration": "30hours",
+      "lessons": "99",
+      "students": "3.3k",
+      "rating": "4.7",
+      "image": "https://www.bing.com/images/search?view=detailV2&ccid=IqD8xnFT&id=DB4ABC007ED4ED067DCAD820BCE83C3669A3CEDD&thid=OIP.IqD8xnFT16N50v6m_B8D0wHaHa&mediaurl=https%3a%2f%2fimg.freepik.com%2fpremium-photo%2f3d-watch-fashion-able-watch-new-watch-designs-4k-wallpaper-hd-wallpaper_1262886-3304.jpg&exph=626&expw=626&q=watch+images&FORM=IRPRST&ck=A57E6CAFA1CE296F7C7151C09DDDC642&selectedIndex=0&itb=0",
+      "description": "sujith",
+      "videos": [
+        {
+          "id": 1,
+          "title": "intro",
+          "video": "class.mp4"
+        }
+      ],
+      "assignments": []
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "name": "Administrator",
+      "email": "admin@learnflow.com",
+      "password": "admin123",
+      "role": "Super Admin",
+      "profile": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

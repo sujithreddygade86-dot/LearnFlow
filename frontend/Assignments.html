@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Assignments.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Learn<span>Flow</span></h1>
+                <div class="line"></div>
+                <p>Learn continuously • Grow confidently</p>
+            </div>
+
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="MyCourses.html">My Courses</a></li>
+                <li><a href="Assignments.html" class="active">Assignments</a></li>
+            
+            </ul>
+
+            <div class="search">
+                <input type="text" placeholder="Search Courses" onclick="openCourses()">
+            </div>
+
+            <div class="actions" id="actions">
+                <a href="login.html" class="login">Login</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <br><br>
+
+    <h1 style="text-align:center">
+        My Assignments
+    </h1>
+
+    <br>
+
+    <div id="assignmentContainer"></div>
+
+    
+    <script src="Assignments.js"></script>
+</body>
+</html>

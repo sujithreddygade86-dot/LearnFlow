@@ -2,9 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "scripts": {
-     "start": "json-server --host 0.0.0.0 --port $PORT db.json"
+    "start": "json-server --host 0.0.0.0 --port $PORT db.json",
+    "dev": "json-server --host 0.0.0.0 --port 3000 db.json"
   },
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.17.4"
   }
 }

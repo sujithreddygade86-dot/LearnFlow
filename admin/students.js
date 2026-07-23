@@ -42,7 +42,7 @@ function logout() {
 
 
 async function getdata() {
-    let res = await fetch("http://localhost:3000/users")
+    let res = await fetch("https://learnflow-backend-dg4d.onrender.com/users")
     let data = await res.json();
     let cont = document.getElementById("container")
     let search = document.getElementById("search").value.toLowerCase();
@@ -89,7 +89,7 @@ async function getdata() {
 
 async function viewStudent(id){
 
-    let res = await fetch(`http://localhost:3000/users/${id}`);
+    let res = await fetch(`https://learnflow-backend-dg4d.onrender.com/users/${id}`);
 
     let student = await res.json();
 

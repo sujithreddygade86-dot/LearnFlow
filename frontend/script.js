@@ -33,7 +33,7 @@ async function registerUser() {
         submittedAssignments: []
     };
 
-    let response = await fetch("http://localhost:3000/users", {
+    let response = await fetch("https://learnflow-backend-dg4d.onrender.com/users", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

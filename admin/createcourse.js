@@ -95,7 +95,7 @@ async function saveCourse() {
     }
 
 
-    let res = await fetch("http://localhost:3000/courses", {
+    let res = await fetch("https://learnflow-backend-dg4d.onrender.com/courses", {
         method: "POST",
         "headers": {
             "Content-Type": "application/json"

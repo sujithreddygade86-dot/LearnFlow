@@ -42,7 +42,7 @@ function logout() {
 
 
 async function getData() {
-    let res = await fetch("http://localhost:3000/courses");
+    let res = await fetch("https://learnflow-backend-dg4d.onrender.com/courses");
     let data = await res.json();
 
     let cont = document.getElementById("container1");

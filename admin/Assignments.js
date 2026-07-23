@@ -76,7 +76,7 @@ async function saveAssignment() {
 
     let link = document.getElementById("file").value;
 
-    let res = await fetch(`http://localhost:3000/courses/${courseId}`);
+    let res = await fetch(`https://learnflow-backend-dg4d.onrender.com/courses/${courseId}`);
 
     let course = await res.json();
 

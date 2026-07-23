@@ -43,7 +43,7 @@ function logout() {
 
 async function getData() {
 
-    let res = await fetch("http://localhost:3000/courses");
+    let res = await fetch("https://learnflow-backend-dg4d.onrender.com/courses");
     let data = await res.json();
 
     let search = document.getElementById("search").value.toLowerCase();
@@ -51,7 +51,7 @@ async function getData() {
     let currentUser = null;
 
     if (user) {
-        let userRes = await fetch(`http://localhost:3000/users/${user.id}`);
+        let userRes = await fetch(`https://learnflow-backend-dg4d.onrender.com/users/${user.id}`);
         currentUser = await userRes.json();
     }
 
@@ -139,10 +139,10 @@ async function enrollCourse(id, btn) {
         window.location.href = "login.html"
         return;
     }
-    let userRes = await fetch(`http://localhost:3000/users/${user.id}`);
+    let userRes = await fetch(`https://learnflow-backend-dg4d.onrender.com/users/${user.id}`);
     let currentUser = await userRes.json();
 
-    let courseRes = await fetch(`http://localhost:3000/courses/${id}`);
+    let courseRes = await fetch(`https://learnflow-backend-dg4d.onrender.com/courses/${id}`);
     let course = await courseRes.json();
 
     let already = false;
@@ -156,7 +156,7 @@ async function enrollCourse(id, btn) {
     }
     else {
         currentUser.enrolledCourses.push(course)
-        await fetch(`http://localhost:3000/users/${user.id}`, {
+        await fetch(`https://learnflow-backend-dg4d.onrender.com/users/${user.id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"

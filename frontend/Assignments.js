@@ -30,10 +30,10 @@ function logout() {
 
 async function getAssignments() {
 
-    let res = await fetch(`http://localhost:3000/users/${user.id}`);
+    let res = await fetch(`https://learnflow-backend-dg4d.onrender.com/users/${user.id}`);
     let currentUser = await res.json();
 
-    let courseRes = await fetch("http://localhost:3000/courses");
+    let courseRes = await fetch("https://learnflow-backend-dg4d.onrender.com/courses");
     let courses = await courseRes.json();
 
     let cont = document.getElementById("assignmentContainer");
@@ -136,7 +136,7 @@ async function submitAssignment(id) {
 
     }
 
-    let res = await fetch(`http://localhost:3000/users/${user.id}`);
+    let res = await fetch(`https://learnflow-backend-dg4d.onrender.com/users/${user.id}`);
 
     let currentUser = await res.json();
 
@@ -170,7 +170,7 @@ async function submitAssignment(id) {
 
     currentUser.submittedAssignments.push(obj);
 
-    await fetch(`http://localhost:3000/users/${user.id}`, {
+    await fetch(`https://learnflow-backend-dg4d.onrender.com/users/${user.id}`, {
 
         method: "PUT",
 

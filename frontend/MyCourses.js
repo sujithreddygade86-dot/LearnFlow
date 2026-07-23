@@ -38,7 +38,7 @@ async function getMyCourses() {
         return;
     }
 
-    let res = await fetch(`http://localhost:3000/users/${user.id}`);
+    let res = await fetch(`https://learnflow-backend-dg4d.onrender.com/users/${user.id}`);
     let currentUser = await res.json();
 
     let cont = document.getElementById("container1");

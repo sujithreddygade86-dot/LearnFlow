@@ -5,7 +5,7 @@ async function login() {
 
     console.log(email, password);
 
-    let adminRes = await fetch("http://localhost:3000/admin");
+    let adminRes = await fetch("https://learnflow-backend-dg4d.onrender.com/admin");
     let admins = await adminRes.json();
 
     console.log(admins);

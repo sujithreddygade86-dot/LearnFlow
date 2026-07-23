@@ -4,7 +4,7 @@ async function registerUser() {
     let email = document.getElementById("email").value;
     let password = document.getElementById("pass").value;
 
-    let res = await fetch("http://localhost:3000/users");
+    let res = await fetch("https://learnflow-backend-dg4d.onrender.com/users");
     let users = await res.json();
 
     let duplicate = false;

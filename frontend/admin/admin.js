@@ -4,7 +4,7 @@ let videos = [];
 
 if (!admin) {
     alert("please Login to Access Admin Panel")
-    window.location.href = "../frontend/login.html";
+    window.location.href = "../login.html";
 
 }
 
@@ -36,7 +36,7 @@ function logout() {
 
     localStorage.removeItem("loggedInAdmin");
 
-    window.location.href = "../frontend/login.html";
+    window.location.href = "../login.html";
 
 }
 
@@ -88,7 +88,7 @@ async function getData() {
 
 
 async function deleteCourse(id) {
-    await fetch(`http://localhost:3000/courses/${id}`, {
+    await fetch(`https://learnflow-backend-dg4d.onrender.com/courses/${id}`, {
         method: "DELETE",
     });
     getData()
@@ -99,7 +99,7 @@ async function editCourse(id) {
 
     document.getElementById("overlay").style.display = "flex";
 
-    let res = await fetch(`http://localhost:3000/courses/${id}`);
+    let res = await fetch(`https://learnflow-backend-dg4d.onrender.com/courses/${id}`);
 
     editCourseData = await res.json();
 
@@ -224,7 +224,7 @@ async function updateCourse(){
 
     editCourseData.videos = videos;
 
-    await fetch(`http://localhost:3000/courses/${editCourseData.id}`,{
+    await fetch(`https://learnflow-backend-dg4d.onrender.com/courses/${editCourseData.id}`,{
 
         method:"PUT",
 

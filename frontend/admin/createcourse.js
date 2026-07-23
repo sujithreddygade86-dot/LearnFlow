@@ -4,7 +4,7 @@ let videos = [];
 
 if (!admin) {
     alert("please Login to Access Admin Panel")
-    window.location.href = "../frontend/login.html";
+    window.location.href = "../login.html";
 }
 else {
 
@@ -34,7 +34,7 @@ function logout() {
 
     localStorage.removeItem("loggedInAdmin");
 
-    window.location.href = "../frontend/login.html";
+    window.location.href = "../login.html";
 
 }
 

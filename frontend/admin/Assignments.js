@@ -4,7 +4,7 @@ if (!admin) {
 
     alert("Please Login to Access Admin Panel");
 
-    window.location.href = "../frontend/login.html";
+    window.location.href = "../login.html";
 
 }
 
